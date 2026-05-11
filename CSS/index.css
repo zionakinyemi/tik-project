@@ -135,7 +135,7 @@
 }
 
 .total1{
-    background-image: url(/multimedia/Image/eleventh.jpeg);
+    background-image: url(../multimedia/Image/eleventh.jpeg);
     background-size: 50px;
     background-position: center;
     background-repeat: no-repeat;
@@ -222,7 +222,7 @@
     left: 17px;
 }
 .total7{
-    background-image: url(/multimedia/Image/eleventh.jpeg);
+    background-image: url(../multimedia/Image/eleventh.jpeg);
     background-size: 50px;
     background-position: center;
     background-repeat: no-repeat;

@@ -1,0 +1,579 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    /* border: thin solid white; */
+}
+.whole{
+    background-image: linear-gradient(to right, rgb(10, 10, 101), rgb(1, 1, 11));
+}
+.firstimg{
+    width: 150px;
+    margin-left: 70px;
+    height: 100px;
+    display: flex;
+    align-self: center;
+}
+.first2{
+    width: 25px;
+    height: 25px;
+    margin-right: 80px;
+    display: flex;
+    align-self: center;
+}
+.first{
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    border-bottom: thin solid rgb(169, 168, 168);
+    justify-content: space-around;
+    padding: 10px;
+    height: 11vh;
+}
+.subfirst{
+    display: flex;
+    background-color: rgb(74, 73, 73);
+    width: 40%;
+    margin-left: 200px;
+    padding: 10px;
+    padding-inline: 15px;
+    font-size: 18px;
+    border-radius: 20px;
+    padding-right: 10px;
+    /* justify-content: space-between; */
+    color: grey;
+}
+.subfirst img{
+    border-left: thin solid white;
+    padding-left: 10px;
+    width: 30px;
+}
+.subfirst div{
+   width: 90%;
+   color: white;
+}
+
+.second1{
+    background-color: rgb(234, 55, 55);
+    color: white;
+    border: none;
+    width: 120px;
+    font-size: 16px;
+    font-weight: 800;
+    border-radius: 8px;
+    margin-left: 30px;
+}
+.second{
+    height: 89vh;
+    /* padding-inline: 150px; */
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    /* padding-inline: 100px; */
+    padding-bottom: 30px;
+    z-index: 0;
+}
+.meat{
+    width: 80%;
+    background-color: rgb(69, 68, 68);
+    display: flex;
+    border-radius: 30px;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.meat img{
+    width: 25px;
+    height: 25px;
+}
+.meat div{
+    color: rgb(153, 153, 153);
+    font-weight: 900;
+    display: flex;
+    padding-block: 5px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin: 5px;
+    width: 100%;
+}
+.meat div:hover{
+    background-color: white;
+    border-radius: 30px;
+    color: rgb(29, 28, 28);
+    
+}
+
+.wire{
+    margin-block: 30px;
+    width: 100%;
+    margin-inline: 150px;
+}
+.wipe{
+    color: white;
+    font-size: 37px;
+    font-weight: 900;
+    width: 100%;
+}
+.wipe h6{
+   font-size: 20px;  
+}
+.bite{
+    display: flex;
+    position: relative;
+    height: 80vh;
+    width: 100%;
+    padding-block: 10px;
+}
+.bite2 video{
+    border-radius: 30px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+}
+.bite2 div{
+    width: 80px;
+    background-color: black;
+    height: 18px;
+    border-radius: 40px;
+    position: absolute;
+    top: 20px;
+    left: 250px;
+    z-index: 2;
+}
+.bite1{
+    width: 30%;
+}
+.bite1 img{
+    width: 100px;
+    position: absolute;
+    bottom: 280px;
+    left: 100px;
+    z-index: 2;
+}
+.bite3{
+    background-color: rgb(120, 227, 227);
+    opacity: 80%;
+    padding: 15px;
+    padding-block: 10px;
+    height: 160px;
+    color: white;
+    font-weight: 900;
+    font-size: 15px;
+    width: 130px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0px;  
+    right: 80px;
+    z-index: 2;  
+}
+.bite3 img{
+    width: 90px;
+    margin-top: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+.overflow{
+    overflow: auto;
+    width: 100%;
+    height: 80vh;
+}
+.overflow::-webkit-scrollbar{
+    display: none;
+}
+.mite1{
+    width: 30%;
+}
+.mite1 img{
+    width: 100px;
+    position: absolute;
+    bottom: 280px;
+    right: 60px;
+    z-index: 2;
+}
+.mite3{
+    background-color: rgb(236, 65, 65);
+    opacity: 80%;
+    padding: 15px;
+    padding-block: 10px;
+    height: 160px;
+    color: white;
+    font-weight: 900;
+    font-size: 15px;
+    width: 130px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0px;  
+    right: 320px;
+    z-index: 2;  
+}
+.mite3 img{
+    width: 90px;
+    margin-top: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+.mite2 video{
+    border-radius: 30px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+}
+.mite2 div{
+    width: 15px;
+    background-color: black;
+    height: 15px;
+    border-radius: 40px;
+    position: absolute;
+    top: 20px;
+    left: 280px;
+    z-index: 2;
+}
+.mouse{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    right: 30px;
+    top: 60px;
+}
+.cite1{
+    width: 30%;
+}
+.cite1 img{
+    width: 100px;
+    position: absolute;
+    bottom: 200px;
+    left: 100px;
+    z-index: 2;
+}
+.cite3{
+    background-color: rgb(193, 189, 189);
+    opacity: 80%;
+    padding: 15px;
+    padding-block: 10px;
+    height: 160px;
+    color: white;
+    font-weight: 900;
+    font-size: 15px;
+    width: 130px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0px;  
+    left: 300px;
+    z-index: 2;  
+}
+.cite3 img{
+    width: 90px;
+    margin-top: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+.cite2 video{
+    border-radius: 30px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+}
+.cite2 div{
+    width: 15px;
+    background-color: black;
+    height: 15px;
+    border-radius: 40px;
+    position: absolute;
+    top: 20px;
+    left: 280px;
+    z-index: 2;
+}
+@media (max-width: 980px) {
+    .overflow{
+        /* padding-right: 10px; */
+        width: 100%;  
+    }
+    .bite{
+        width: 80%;
+        /* padding-right: 10px; */
+        /* padding-block: 0px; */
+    }
+    .wire{
+        margin-inline: 0px;
+        margin-left: 40px;
+        width: 100%;
+    }
+    .wipe{
+        font-size: 25px;
+    }
+    .wipe h6{
+        font-size: 15px;
+    }
+    .meat{
+        width: 100%;
+        font-size: 15px;
+    }
+    .meat div{
+        width: 100%;
+    }
+    .cite3{
+        left: 210px;
+    }
+    .cite1 img{
+       left: 20px;
+    }
+    .cite2 div{
+        left: 180px;
+    }
+    .mouse{
+       left: 290px;
+       z-index: 2;
+    }
+    .mite1 img{
+        right: -70px;
+    }
+    .mite3{
+        right: 140px;
+    }
+    .mite2 div{
+        left: 180px;
+    }
+    .bite3{
+        right: 140px;
+    }
+    .bite1 img{
+        left: 240px;
+    }
+    .bite2 div{
+        left: 150px;
+    }
+    .subfirst{
+       margin-left: 0px; 
+    
+    }
+    .firstimg{
+        margin-left: 0px;
+    }
+    .second1{
+        margin-left: 0px;
+    }
+    .first2{
+        margin-right: 0px;
+    }
+}
+ @media (max-width: 605px)  {
+    .wipe{
+        font-size: 10px;
+    }
+    .wipe h6{
+        font-size: 7px;
+    }
+    .wire{
+        margin-left: 10px;
+    }
+    .firstimg{
+        width: 100px;
+        height: 80px;
+    }
+    .second1{
+        width: 80px;
+        font-size: 13px;
+    }
+    .subfirst{
+        font-size: 15px;
+    }
+    .first{
+        gap: 10px;
+        padding: 8px;
+    }
+    .meat{
+        font-size: 12px;
+        width: 120%;
+    }
+    .meat img{
+        width: 10px;
+        height: 10px;
+    }
+    .meat div{
+        margin-inline: 2.5px;
+        gap: 2px;
+        font-size: 10px;
+    }
+    .wipe{
+        width: 100%;
+    }
+    .wire{
+        margin-left: 40px;
+    }
+    .wipe h1{
+        width: 85%;
+    }
+    .bite1 img{
+        left: 20px;
+        width: 50px;
+        top: 120px;
+    }
+    .bite3{
+        right: -30px;
+        font-size: 7px;
+        height: 110px;
+        width: 100px;
+        padding-inline: 5px;
+        padding-block: 5px;
+        bottom: 70px;
+    }
+    .bite3 img{
+        width: 90px;
+        height: 80px;
+        margin-top: 5px;
+    }
+    .bite2 div{
+        height: 8px;
+        width: 50px;
+        top: 115px;
+        left: 65px;
+    }
+    .bite2 video{
+        border-radius: 20px;
+        height: 45%;
+        margin-block: 100px;
+    }
+    .mite2 video{
+        border-radius: 20px;
+        height: 45%;
+        margin-block: 100px;
+    }
+    .mite1 img{
+        left: 120px;
+        width: 50px;
+        top: 120px;
+    }
+    .mite3{
+        right: 40px;
+        font-size: 7px;
+        height: 110px;
+        width: 100px;
+        padding-inline: 5px;
+        padding-block: 5px;
+        bottom: 70px;
+    }
+    .mite3 img{
+        width: 90px;
+        height: 80px;
+        margin-top: 5px;
+    }
+    .mite2 div{
+        height: 10px;
+        width: 10px;
+        top: 115px;
+        left: 90px;
+    }
+    .cite2 div{
+        height: 10px;
+        width: 10px;
+        top: 115px;
+        left: 90px;
+    }
+    .cite3{
+        left: 80px;
+        font-size: 7px;
+        height: 110px;
+        width: 100px;
+        padding-inline: 5px;
+        padding-block: 5px;
+        bottom: 70px;
+    }
+    .cite3 img{
+        width: 90px;
+        height: 80px;
+        margin-top: 5px;
+    }
+    .mouse{
+        width: 25px;
+        height: 25px;
+        left: 150px;
+        top: 120px;
+    }
+    .cite2 video{
+        border-radius: 20px;
+        height: 45%;
+        margin-block: 100px;
+    }
+    .cite1 img{
+        left: 20px;
+        width: 50px;
+        top: 120px;
+    }
+ }
+  @media (max-width: 400px) {
+    .bite1 img{
+        left: 10px;
+    }
+    .bite2 div{
+        left: 60px;
+    }
+    .mite1 img{
+        left: 110px;
+    }
+    .mite3{
+        right: 30px;
+    }
+    .mite2 div{
+        left: 80px;
+    }
+    .cite1 img{
+        left: 10px;
+    }
+    .cite3{
+        left: 60px;
+    }
+    .cite2 div{
+        left: 80px;
+    }
+    .mouse{
+        left: 140px;
+    }
+    .meat{
+        width: 150%;
+        z-index: 3;
+    }
+    .wipe h1{
+        width: 90%;
+    }
+  }
+  @media (max-width: 350px) {
+    .bite1 img{
+        left: 0px;
+        top: 130px;
+    }
+    .bite2 div{
+        left: 45px;
+        top: 125px;
+    }
+    .mite1 img{
+        left: 90px;
+    }
+    .mite3{
+        right: 10px;
+    }
+    .mite2 div{
+        left: 65px;
+        top: 125px;
+    }
+    .cite1 img{
+        left: 5px;
+        top: 130px;
+    }
+    .cite3{
+        left: 38px;
+    }
+    .cite2 div{
+        left: 65px;
+        top: 125px;
+    }
+    .mouse{
+        left: 110px;
+        top: 130px;
+    }
+  }

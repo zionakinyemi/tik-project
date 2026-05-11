@@ -1,0 +1,280 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    /* border: thin solid black; */
+}
+.firstimg{
+    width: 110px;
+    margin-left: 70px;
+}
+.first2{
+    width: 25px;
+    height: 25px;
+    margin-right: 80px;
+    display: flex;
+    align-self: center;
+}
+.subfirst img{
+    width: 25px;
+}
+.first{
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    border: thin solid grey;
+    justify-content: space-around;
+    padding: 10px;
+    height: 10vh;
+}
+.subfirst{
+    display: flex;
+    background-color: rgb(239, 237, 237);
+    width: 40%;
+    margin-left: 200px;
+    padding: 10px;
+    padding-inline: 15px;
+    font-size: 18px;
+    border-radius: 20px;
+    justify-content: space-between;
+    color: grey;
+}
+.second1{
+    background-color: rgb(234, 55, 55);
+    color: white;
+    border: none;
+    width: 120px;
+    font-size: 16px;
+    font-weight: 800;
+    border-radius: 8px;
+    margin-left: 30px;
+}
+.meal{
+    padding-inline: 100px;
+    padding-block: 20px;
+    background-color: rgb(220, 218, 218);
+    height: 90vh;
+    overflow: auto;
+}
+.meal1{
+    background-color: white; 
+    padding: 20px; 
+    position: relative;  
+    padding-bottom: 70px;
+    border-radius: 8px;
+}
+.firstmeal img{
+    width: 35px;
+}
+.amala{
+    display: flex;
+    gap: 10px;
+    width: 15%;
+    background-color: rgb(220, 218, 218);
+    padding-inline: 10px;
+    padding-block: 20px;
+    border-radius: 10px;
+    align-items: center;
+    font-size: 20px;
+    margin-block: 20px;
+}
+.secondmeal{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.secondmeal img{
+    width: 18px;
+}
+.rice{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+}
+.beans img{
+    width: 45px;
+}
+.beans{
+   background-color: rgb(220, 218, 218);
+   padding-block: 30px;
+   border-radius: 10px;
+   text-align: center;
+   font-weight: 900;
+}
+.beans1{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 8px;
+}
+.beans p{
+    color: grey;
+}
+.chair{
+    margin-block: 20px;
+    font-size: 18px;
+}
+.chair span{
+    font-weight: 900;
+    margin-left: 10px;
+}
+.chair1{
+    background-color: rgb(247, 158, 172);
+    color: white;
+    border: none;
+    padding-inline: 80px;
+    padding-block: 20px;
+    font-size: 15px;
+    font-weight: 900;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.chair3{
+    display: flex;
+    background-color: rgb(192, 220, 192);
+    width: 60px;
+    font-size: 8px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    gap: 5px;
+    color: rgb(112, 112, 112);
+    position: absolute;
+    right: 30px;
+    border: thin solid rgb(2, 93, 2);
+}
+.chair3 img{
+    width: 10px;
+    height: 10px;
+}
+.chair3 span{
+    color: black;
+    font-weight: 900;
+}
+.table{
+    background-color: white;
+    margin-top: 30px;
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    border-radius: 8px;
+}
+.table:hover{
+    background-color: rgb(208, 202, 202);
+}
+.table1{
+    width: 50px;
+    margin-right: 40px;
+}
+.table2{
+    margin-left: 72%;
+    width: 20px;
+}
+.eba{
+    font-weight: 900;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.eba2{
+    font-size: 16px;
+    color: rgb(118, 117, 117);
+}
+@media (max-width: 980px) {
+    .firstimg{
+       margin-left: 10px; 
+       width: 100px;
+       height: 30px;
+    }
+    .first{
+        gap: 0px;  
+        /* width: 70%; */
+
+    }
+    .subfirst{
+        width: 30%;
+        margin-left: 200px;
+        align-items: center;
+        padding-block: 15px;
+    }
+    .second1{
+        margin-left: 0;
+    }
+    .first2{
+        margin-right: 0px;
+    }
+    .amala{
+        width: 22%;
+        font-size: 20px;
+    }
+    .amala img{
+        width: 25px;
+    }
+    .rice{
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+    }
+    .beans{
+        padding-block: 10px;
+        padding-inline: 0px;
+        font-size: 15px;
+    }
+    .beans img{
+        width: 40px;
+    }
+    .meal{
+        padding-inline: 30px;
+        /* width: 70%; */
+    }
+    .secondmeal{
+        font-size: 15px;
+    }
+    .table2{
+        margin-left: 52%;
+    }
+    .eba{
+        font-size: 15px;
+    }
+    .eba2{
+        font-size: 12px;
+    }
+    .with{
+        /* width: 150%; */
+    }
+    .table2{
+        margin-left: 60%;
+    }
+    .table{
+        padding: 20px;
+    }
+}
+ @media (max-width: 605px)  {
+    .subfirst{
+        display: none;
+    }
+    .first2{
+        display: none;
+    }
+    .first{
+        justify-content: space-between;
+    }
+    .amala{
+        width: 40%;
+    }
+    .rice{
+        grid-template-columns: 1fr 1fr;
+    }
+    .meal1{
+        width: 180%;
+        padding-inline: 30px;
+    }
+    .beans{
+        font-size: 17px;
+    }
+    .table{
+        width: 180%;
+    }
+    .table2{
+        margin-left: 59%;
+    }
+ }

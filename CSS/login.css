@@ -1,0 +1,148 @@
+*{
+    /* box-sizing: border-box; */
+    margin: 0;
+    padding: 0;
+}
+.book{
+   padding: 20px;
+   padding-block: 15px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.book1{
+    width: 120px;
+}
+.book2 img{
+    width: 25px;
+}
+.book2{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.firstmain{
+    text-align: center;
+    font-weight: 900;
+    padding-block: 50px;
+    height: 20vh;
+    overflow: auto;
+}
+.firstmain::-webkit-scrollbar{
+    display: none;
+}
+.firstmain h1{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.firstmain a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+.book3{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.book3 p{
+    width: 25%;
+    color: grey;
+}
+.firstmain img{
+    width: 25px; 
+}
+
+.one{
+    border: thin solid grey;
+    display: flex;
+    width: 30%;
+    padding-inline: 15px;
+    padding-block: 10px;
+    margin-block: 5px;
+    border-radius: 10px;
+    align-items: center;
+    color: black;
+}
+.one:hover{
+    background-color: rgb(216, 213, 213);
+    border: thin solid rgb(216, 213, 213);
+}
+.one p{
+ width: 80%;
+ font-size: 16px;
+}
+.secondmain{
+    display: flex;
+    justify-content: center;
+    padding-block: 20px;
+    padding-bottom: 80px;
+    color: grey;
+}
+.secondmain p{
+    width: 29%;
+    text-align: center;
+    font-size: 15px;
+}
+.secondmain span{
+    color: black;
+}
+.book4{
+    display: flex;
+    justify-content: center;
+    padding-block: 20px;
+    font-size: 18px;
+    border-top: thin solid grey;
+}
+.sub1{
+    padding: 10px;
+}
+.book5{
+    background-color: rgb(3, 3, 30);
+    padding-block: 25px;
+    color: grey;
+    display: flex;
+    align-items: center;
+    padding-inline: 150px;
+    justify-content: space-between;
+}
+.book5 input{
+    background-color: transparent;
+    border: thin solid white;
+}
+ @media (max-width: 980px) {
+    .one{
+        width: 40%;
+    }
+    .book3 p{
+        width: 40%;
+    }
+    .secondmain p{
+        width: 48%;
+    }
+    .firstmain{
+        height: 10vh;
+    }
+    .book5{
+        padding-block: 16px;
+    }
+ }
+  @media (max-width: 605px) {
+    .one{
+        width: 70%;
+    }
+    .book3 p{
+        width: 70%;
+    }
+    .secondmain p{
+        width: 75%;
+        font-size: 13px;
+    }
+    .book5{
+        padding-block: 20px;
+        padding-inline: 80px;
+    }
+    
+  }
+
